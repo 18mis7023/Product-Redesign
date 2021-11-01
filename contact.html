@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Registration | CSI VIT AP</title>
+        <!-- google-fonts -->
+        <link href="//fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <!-- //google-fonts -->
+        <!-- Template CSS Style link -->
+        <link rel="stylesheet" href="css/contact.css">
+        <!-- font awesome link icon -->
+        <script src="https://kit.fontawesome.com/cc8111f8a1.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <!-- header section -->
+    <header id="site-header" class="fixed-top bg-light">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg stroke">
+                <!-- <h1>
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <i class="fa fa-yelp mr-1" aria-hidden="true"></i>Fitment</a>
+                </h1> -->
+    <a class="navbar-brand" href="#index.html">
+        <img src="images/logo.png" alt="Your logo" title="Your logo" style="height:35px;" />
+        CSI VIT AP
+    </a>
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" onclick="logout()" style="
+                            color:#000;
+                            background-color:#fff;
+                            border-radius:25px;
+                            padding:10px 25px;">Log out<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+    <!-- inner banner -->
+    <div class="inner-banner">
+        <section class="csi-breadcrumb">
+            <div class="container">
+                <h2 class="inner-text-title font-weight-bold mb-2">Register Here </h2>
+                <p>Idea Plugin</p>
+                <p><b>Event on 27 May 2021</b></p>
+            </div>
+        </section>
+    </div>
+    <!-- //inner banner -->
+
+    <!-- contact -->
+    <section class="csi-contact pb-5" id="contact">
+        <div class="container pb-md-5 pb-4">
+            <div class="row contact-block">
+                <div class="col-lg-7 contact-right mt-5">
+                    <h3 class="title-style mb-4 pb-2">Fill these Details</h3>
+                    <form class="signin-form">
+                        <h5 class="m-lg-4">Team Member 1</h5>
+                        <div class="input-grids">
+                            <input type="text" name="name" id="reg_name_input" placeholder="Your Name*"
+                                class="contact-input" required/>
+                            <input type="email" name="email" id="reg_email_input" placeholder="Your Email*" disabled
+                                class="contact-input" required/>
+                            <input type="text" name="Collegename" id="reg_college_name" placeholder="College Name*"
+                                class="contact-input" required/>
+                            <input type="tel" name="number" id="reg_mobile_input" placeholder="Mobile Number*"
+                                class="contact-input" required/>
+                        </div>
+                        <h5 class="m-lg-4">Team Member 2</h5>
+                        <div class="input-grids">
+                            <input type="text" name="name" id="reg_name_input2" placeholder="Your Name*"
+                                class="contact-input" required/>
+                            <input type="email" name="email" id="reg_email_input2" placeholder="Your Email*"
+                                class="contact-input" required/>
+                            <input type="text" name="Collegename" id="reg_college_name2" placeholder="College Name*"
+                                class="contact-input" required/>
+                            <input type="tel" name="number" id="reg_mobile_input2" placeholder="Mobile Number*"
+                                class="contact-input" required/>
+                        </div>
+                        <h5 class="m-lg-4">Team Member 3 (Optional)</h5>
+                        <div class="input-grids">
+                            <input type="text" name="name" id="reg_name_input3" placeholder="Your Name*"
+                                class="contact-input"/>
+                            <input type="email" name="email" id="reg_email_input3" placeholder="Your Email*"
+                                class="contact-input"/>
+                            <input type="text" name="Collegename" id="reg_college_name3" placeholder="College Name*"
+                                class="contact-input"/>
+                            <input type="tel" name="number" id="reg_mobile_input3" placeholder="Mobile Number*"
+                                class="contact-input"/>
+                        </div>
+                        <div class="input-grids">
+                            <input type="text" id="reg_reff_input" placeholder="Referreal Code(Optional)"
+                                class="contact-input"/>
+                            <select name="slots" id="slotselection" style="padding: 20px;" >
+                                <option value="Slot-1">Slot-1 10:00 AM to 10:45 AM on 27th May</option>
+                                <option value="Slot-2">Slot-2 11:00 AM to 11:45 AM on 27th May</option>
+                                <option value="Slot-3">Slot-3 12:00 PM to 12:45 PM on 27th May</option>
+                                <option value="Slot-4">Slot-4 02:00 PM to 02:45 PM on 27th May</option>
+                                <option value="Slot-5">Slot-5 03:00 PM to 03:45 PM on 27th May</option>
+                                <option value="Slot-6">Slot-6 04:00 PM to 04:45 PM on 27th May</option>
+                            </select>
+                        </div>
+                        <a class="btn btn-style mt-sm-3" onclick="submit()">Register</a>
+                    </form>
+
+                    <div class="contact-left mt-5 pt-lg-4">
+                        <div class="row cont-details">
+                            <div class="col-sm-6">
+                                <div class="d-flex contact-grid">
+                                    <div class="cont-left text-center mr-3">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="cont-right">
+                                        <h6>CSI VIT AP</h6>
+                                        <p>G-30, Inavolu, Beside AP Secretariat Amaravati, Andhra Pradesh 522237</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex contact-grid mt-4 pt-lg-2">
+                                    <div class="cont-left text-center mr-3">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="cont-right">
+                                        <h6>Call Us</h6>
+                                        <p><a href="tel:9494949453">9494949453</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-sm-0 mt-4">
+                                <div class="d-flex contact-grid">
+                                    <div class="cont-left text-center mr-3">
+                                        <span class="fa fa-envelope-open"></span>
+                                    </div>
+                                    <div class="cont-right">
+                                        <h6>Email Us</h6>
+                                        <p><a href="mailto:csi.society@vitap.ac.in" class="mail">csi.society@vitap.ac.in</a></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex contact-grid mt-4 pt-lg-2">
+                                    <div class="cont-left text-center mr-3">
+                                        <span class="fa fa-headphones"></span>
+                                    </div>
+                                    <div class="cont-right">
+                                        <h6>Incase of support</h6>
+                                        <p><a href="mailto:mervin.18mis7048@vitap.ac.in" class="mail">mervin.18mis7048@vitap.ac.in</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-lg-0 mt-5 pl-xl-5 pl-lg-4">
+                    <div class="map-iframe">
+                        <img src="images/contact-image.png" alt="Contact-image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //contact -->
+
+
+    <!-- form section -->
+    <div class="main-csi px-md-4 py-5" id="newsletter">
+        <div class="container py-md-5 py-4">
+            <div class="csi-forms-9 py-4 m-auto px-md-5 px-4" style="max-width:1000px">
+                <div class="container-fluid py-lg-3 py-2">
+                    <div class="row align-items-center">
+                        <div class="main-midd col-xl-6 col-lg-5">
+                            <h4 class="title-head mb-lg-2"><i class="fa fa-envelope mr-1" aria-hidden="true"></i>
+                                Have a doubt?</h4>
+                            <p>Put your email address & get listed</p>
+                        </div>
+                        <div class="main-midd-2 col-xl-6 col-lg-7 mt-lg-0 mt-4">
+                            <form action="#" method="POST" class="rightside-form" name="google-sheets">
+                                <input type="email" class="form-control" name="Email" placeholder="Enter your email">
+                                <button class="btn" type="submit">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //form section -->
+
+    <!-- footer -->
+    <section class="csi-footer-29-main">
+        <div class="footer-29 py-5">
+           <h3 class="text-center">Solution Beyond Excellence</h3>
+        </div>
+    </section>
+    <!-- //footer -->
+    <!-- copyright -->
+    <section class="csi-copyright">
+        <div class="container">
+            <div class="row bottom-copies">
+                <p class="col-lg-8 copy-footer-29">© 2021 UI DESIGN CHALLENGE. All rights reserved. Design by <a
+                        href="http://csivitap.co.in/" target="_blank">
+                        CSI VIT AP</a></p>
+                <div class="col-lg-4 text-right">
+                    <div class="main-social-footer-29">
+                        <a href="https://www.facebook.com/CSIVITAP/" class="facebook" target="_blank"><span class="fa fa-facebook"></span></a>
+                        <a href="https://www.csi.society@vitap.ac.in"><span class="fa fa-google-plus" aria-hidden="true" target="_blank"></span></a>
+                        <a href="https://www.instagram.com/csi_vitap/?hl=en" target="_blank" class="instagram"><span class="fa fa-instagram"></span></a>
+                        <a href="https://in.linkedin.com/in/csi-vit-ap-a244361ba" class="linkedin" target="_blank"><span class="fa fa-linkedin" target="_blank"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //copyright -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <!-- //bootstrap-->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <!-- //Js scripts -->
+    <!-- <script src="assets/js/register.js"></script> --> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxViZCQKOjjXgJjeRHlj0J796I-JSXFEApD6XojJvCvoY1LVzs/exec'
+        const form = document.forms['google-sheets']
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <!-- //Js scripts -->
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>

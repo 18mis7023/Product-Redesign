@@ -1,6 +1,6 @@
 /* Extra added content */
 #Register{
-	background-color: #f26522;
+	background-color: #ff5401;
 	color:#fff;
 	text-align: center;
 	margin:0 auto;
@@ -9,7 +9,7 @@
 	margin-top: 1rem;
 }
 #Registers{
-	background-color: #f26522;
+	background-color: #ff5401;
 	color:#fff;
 	padding:1rem 2rem;
 	margin-top: 1rem;
@@ -973,8 +973,8 @@ ul.simplefilter {
     font-size: 1em;
     border: none;
     text-transform: uppercase;
-    background: #FF9800;
-	border: 2px solid #FF9800;
+    background: #ff5401;
+	border: 2px solid #ff5401;
     font-weight: 600;
 	-o-transition: all 0.5s;
     -moz-transition: all 0.5s;

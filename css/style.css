@@ -8,6 +8,14 @@
 	padding:1rem 2rem;
 	margin-top: 1rem;
 }
+/* register button font */
+.btn{
+	font-size: 17px;
+	font-weight: 600;
+}
+.csiabout-text h5 {
+font-weight: 600;
+}
 #Registers{
 	background-color: #ff5401;
 	color:#fff;
@@ -1618,7 +1626,7 @@ ul.simplefilter {
 		font-size: 2em;
 	}
 	.csiabout-text {
-		top: 20%;
+		top: 16%;
 	}
 	.about, .markets, .portfolio, .testimonial-dot, .team, .blog, .mail {
 		padding: 2em 0;

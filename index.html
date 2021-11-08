@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PRODUCT REDESIGN | CSI VIT-AP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+	function hideURLbar(){ 
+		window.scrollTo(0,1); 
+		};
+	</script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#about" class="scroll">About</a></li>
+										<li><a href="#rules" class="scroll">Rules</a></li>
+										
+										<li><a href="#blog" class="scroll">Website</a></li>
+										<li><a href="#mail" class="scroll">Mail Us</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="agileits-logo">
+				<h1><a href="index.html">Product <span>Redesign</span></a></h1>
+			</div>
+			<div class="csilayouts-banner-info">
+				<div class="container">
+					<div class="csilayouts-banner-slider">
+						<div class="csilayouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>CSI CHAPTER</h3>
+												<p>Solution beyond Excellent</p>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="btn register" id="Register" onclick="googleSignin()">REGISTER HERE</button>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Welcome</h2>
+					<p>Hello Pal. Experience the best ever Product Redesign event. Do you have an exciting idea that can be an eveolution but don't have support to bring it out?
+						Don't worry !. You are in the right place. All you need to do is register for the event. We will guide you from then.
+					</p>
+				</div>
+			</div>
+			<div class="about-csilsrow"> 
+				<div class="col-md-7 col-sm-7 csiabout-img"> 
+					<div class="csiabout-text"> 
+						<h5 class="csil-subtitle">- About Us</h5>
+						<p>CSI Chapter has now collaborated with ACM chapter and Android Club and brought you an wonderful event. Let the world know who you are!</p>
+						<button class="btn registers" id="Registers" onclick="googleSignin()">REGISTER HERE</button>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about --> 
+	<!-- markets -->
+	<div class="markets" id="rules">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>It's simple!!</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Register</h5>
+							<p>Register for the event with your gmail. Fill in your details and wait for the right day to change the world</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Participate</h5>
+							<p>Participate in this 3 round ideathon event. Submit and present you ideas and win exciting prizes</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Team</h5>
+							<p>The minimum size of the team must be 2 members. Maximum is 3 members. Team up with the best</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Round 1</h5>
+							<p>Participate in a very simple multiple choice coding based questions and get promoted to the next exciting round.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Round 2</h5>
+							<p>In this round you just have to come up with a solution for a real life problem and submit us a report which explains your solution</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 csils-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Round 3</h5>
+							<p>You now have to create small prototype for your solution using any tool of your choice. Incase if it is a product create a presentation</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+	<!-- portfolio -->
+	<!-- <div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Games</h3> 
+			</div>
+			<ul class="simplefilter csilayouts agileits">
+				<li class="active csilayouts agileits" data-filter="all">All</li>
+				<li class="csilayouts agileits" data-filter="1">Category1</li>
+				<li class="csilayouts agileits" data-filter="2">Category2</li>
+				<li class="csilayouts agileits" data-filter="3">Category3</li>
+				<li class="csilayouts agileits" data-filter="4">Category4</li>
+				<li class="csilayouts agileits" data-filter="5">Category5</li>
+			</ul>
+
+			<div class="filtr-container csilayouts agileits">
+
+				<div class="filtr-item csilayouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/p1.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/p2.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="images/p3.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="3" data-sort="In production">
+					<a href="images/p4.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/p5.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/p6.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="images/p7.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p8.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item csilayouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" class="b-link-stripe csilayouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive csilayouts agileits" alt="csilayouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div> -->
+	<!-- //portfolio -->
+	<!-- modal -->
+	<!-- testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>In collaboration with</h3> 
+				</div>
+				<div class="csi-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts2.png" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts1.png" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts3.jpeg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Technology is better when it brings people together. We are good at developing solutions to all real life problems</p>
+										<h5>CSI CHAPTER</h5>
+										<h6>VIT AP</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts1.png" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts2.png" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts3.jpeg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>We believe in IMAGINE, LEARN and CREATE. Follow these three. You can solve every complex problems</p>
+										<h5>Android Club</h5>
+										<h6>VIT AP</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts1.png" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts3.jpeg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts2.png" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>We are the latest young brains trying to develop something better than the best. So wait for the change</p>
+										<h5>ACM CHAPTER</h5>
+										<h6>VIT AP</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider3").responsiveSlides({
+										auto: true,
+										pager:false,
+										nav:false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+						</script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonial -->
+
+	<!-- blog -->
+	<div id="blog" class="blog" oncick="window.open('http://csivitap.co.in/','_blank')">
+		<div class="container" oncick="window.open('http://csivitap.co.in/','_blank')"> 
+			<div class="agileits-title">
+				<h3>Our website</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 csi-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>24/01</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 31<li>
+							<li>Comments : (4)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus gravida.</a>
+						<p>Sed ut feugiat felis. Morbi tempor ut nibh id consectetur. Morbi turpis arcu, interdum at feugiat non, iaculis id dui. Cras vestibulum dapibus volutpat. Fusce id molestie mauris, nec pulvinar nibh. </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 csi-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>09/12</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 80<li>
+							<li>Comments : (8)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Etiam ut nibh quis magna placerat euismod ac id eros. Cras eleifend nulla vel eros blandit.</a>
+						<p>Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac. Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog -->
+	<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Mail Us</h3>
+			</div> 
+			<div class="csi_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Your Name</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Your Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Phone Number</span>
+						</label>
+					</span>
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	<!-- //mail -->
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="contact-row agileits-csilayouts">  
+			<div class="col-md-5 contact-csilsleft map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3900933.6762980768!2d79.71103960616908!3d17.291140581758718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.113389599999998!2d83.4109825!4m5!1s0x3a35f27d40f21c55%3A0x1490eacd54859850!2svit%20ap%20maps!3m2!1d16.4962777!2d80.5006676!5e0!3m2!1sen!2sin!4v1621784712448!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<div class="col-md-7 contact-csilsright">
+				<h6>CSI VIT AP</h6>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Hey</h5>
+						<p>It's lockdown time. Don't visit us</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row csi-agileits">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Mail Us</h5>
+						<p><a href="mailto:info@example.com">csi.society@vitap.ac.in</a></p>
+						<p><a href="mailto:info@example.com">mervin.18mis7048@vitap.ac.in</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Call Us</h5>
+						<p>+9494949453<br></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Working Hours</h5>
+						<p>Mon - Fri : 8:00 am to 10:30 pm<br>
+						Sat - Sun : 9:00 am to 11:30 pm</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!-- //contact -->  
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div> 
+					<p>This event is conducted to encourage students with bright ideas and to support them in all ways possible during the process of development. CSI CHAPTER is always there here to support students</p>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>Our collaboration</h3>
+					</div> 
+					<p><a href="#">http://csi.com</a>ACM CHAPTER</p>
+					<p><a href="#">http://csi.com</a>ANDROID CLUB</p>
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>Follow Us</h3>
+					</div> 
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+					<div class="support">
+						<form action="#" method="post">
+							<input type="email" placeholder="Enter email...." required=""> 
+							<input type="submit" value="Subscribe" class="botton">
+						</form> 
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">© 2021 CSI CHAPTER . All Rights Reserved | Designed by Mervin Joseph</a> </p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		});
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+
+
+	<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    
+    <!-- //Js scripts -->
+    <script src="js/index.js"></script>
+</body>	
+</html>

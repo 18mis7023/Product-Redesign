@@ -5,13 +5,17 @@
 	text-align: center;
 	margin:0 auto;
 	display: block;
-	padding:1rem 2rem;
-	margin-top: 1rem;
+	padding:0.5rem 2rem;
+	margin-top: -2rem;
 }
 /* register button font */
 .btn{
 	font-size: 17px;
 	font-weight: 600;
+}
+/* background color for mail */
+.mail{
+	background-color: #ececec;
 }
 .csiabout-text h5 {
 font-weight: 600;
@@ -75,8 +79,15 @@ body{
 }
 /*-- banner --*/
 /*-- header --*/
-.agileits-logo {
-	text-align:center;
+.agiletis-logo{
+	text-align: center;
+}
+.agileits-logo img {
+	display: block;
+	border-radius: 50%;
+    width: 20%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .agileits-logo h1{
 	margin:4rem;
@@ -893,7 +904,9 @@ ul.simplefilter {
 /*-- //team --*/
 /*-- blog --*/
 .blog{
-	background-image: url("../images/back.png");
+	background-image: url("../images/Image2.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	transform:scale(25px);
 } 
 .blog .container{
@@ -1549,8 +1562,9 @@ ul.simplefilter {
 	}
 }
 @media(max-width:480px){
-	.agileits-logo h1 a {
+	.agileits-logo img {
 		font-size: 1.2em;
+		width: 50%;
 	}
 	.navbar-nav > li > a {
 		margin: .5em .5em;

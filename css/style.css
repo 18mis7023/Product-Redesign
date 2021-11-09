@@ -54,7 +54,7 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),url(../images/1.jpg) no-repeat 0px 0px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),url(https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80) no-repeat 0px 0px;
     background-size: cover;
 	height:100vh;
 	background-position: center;
@@ -85,7 +85,7 @@ body{
 .agileits-logo img {
 	display: block;
 	border-radius: 50%;
-    width: 20%;
+    width: 15%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -126,7 +126,6 @@ body{
     float: none;
     text-align: center;
     background: none;
-    margin: 4em 0 0 0;
 }
 .header-top-info ul li{
     display: inline-block;
@@ -356,7 +355,7 @@ body{
 }
 .banner_text h3 {
     color: #FFFFFF;
-    font-size: 7em;
+	font-size: 6.5em;
     margin: 0;
     font-weight: 100;
     text-transform: uppercase;
@@ -904,14 +903,11 @@ ul.simplefilter {
 /*-- //team --*/
 /*-- blog --*/
 .blog{
-	background-image: url("../images/Image2.png");
-	background-repeat: no-repeat;
-	background-position: center;
 	transform:scale(25px);
+	width: 50%;
+	margin: auto;
 } 
-.blog .container{
-	visibility: hidden;
-}
+
 .blog-left h4{
     color: #FF9800;
     margin: 0 0 1em 0;
@@ -1379,6 +1375,7 @@ ul.simplefilter {
 }
 /*-- //to-top --*/
 /*-- responsive --*/
+
 @media(max-width:1080px){
 	.csiabout-text {
 		width: 63%;
@@ -1515,6 +1512,9 @@ ul.simplefilter {
 	}
 }
 @media(max-width:667px){
+	.blog{
+		width: 100%;
+	}
 	.input {
 		max-width: 27.5%;
 	}
@@ -1523,11 +1523,17 @@ ul.simplefilter {
 	}
 }
 @media (max-width:640px) {
+	.blog{
+		width: 100%;
+	}
 	.support input[type="email"] {
 		width: 78%;
 	}
 }
 @media(max-width:600px){
+	.blog{
+		width: 100%;
+	}
 	.banner_text h3 {
 		font-size: 4em;
 	}
@@ -1554,6 +1560,9 @@ ul.simplefilter {
 	}
 }
 @media(max-width:568px){
+	.blog{
+		width: 100%;
+	}
 	.input {
 		max-width: 26%;
 	}
@@ -1627,6 +1636,9 @@ ul.simplefilter {
 	}
 }
 @media(max-width:414px){
+	.blog{
+		width: 100%;
+	}
 	.banner_text h3 {
 		font-size: 3em;
 	}
@@ -1727,6 +1739,27 @@ ul.simplefilter {
 		font-size: .9em;
 	}
 }
+
+@media(max-width:1125px){
+	.carousel-dots{
+		visibility: collapse;
+	}
+}
+@media(max-width:1000px){
+	ul.slides{
+		margin-top: 20px !important;
+	}
+}
+@media(max-width:950px){
+	ul.slides{
+		margin-top: 36px !important;
+	}
+}
+@media(max-width:950px){
+	ul.slides{
+		margin-top: 55px !important;
+	}
+}
 @media(max-width:320px){
 	.agileits-logo h1 a {
 		font-size: .9em;
@@ -1771,4 +1804,139 @@ ul.simplefilter {
 		margin: 1em 0 0 0;
 	}
 }
+
 /*-- //responsive --*/
+/* check */
+.carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul.slides {
+    display: block;
+	align-items: center;
+	position: relative;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block;
+	width: 100%;
+    height: auto;
+   aspect-ratio: 16/9; 
+}
+
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: 100%;
+    height: auto;
+   aspect-ratio: 16/9;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+	opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }

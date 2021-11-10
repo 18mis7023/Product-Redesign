@@ -14139,7 +14139,7 @@ select,
 label,
 li,
 span {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   outline: none;
 }
 
@@ -14982,6 +14982,7 @@ a.navbar-brand:hover {
   font-weight: 600;
   transition: 0.3s ease-in;
   border-radius: 4px;
+  margin-top: 5px !important;
 }
 
 a.dropdown-item {

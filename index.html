@@ -72,7 +72,7 @@
 										<li><a href="#about" class="scroll">About</a></li>
 										<li><a href="#rules" class="scroll">Rules</a></li>
 										
-										<li><a href="#blog" class="scroll">Website</a></li>
+										<li><a href="https://csivitap.co.in/" class="scroll">Website</a></li>
 										<li><a href="#mail" class="scroll">Mail Us</a></li>
 									</ul>
 								</nav>
@@ -94,7 +94,7 @@
 									<ul class="rslides callbacks callbacks1" id="slider4">
 										<li>
 											<div class="banner_text">
-												<h3>CSI 'S INNOTECH</h3>
+												<h3>CSI'S INNOTECH</h3>
 												<p>Solution beyond Excellent</p>
 											</div>
 										</li>
@@ -329,13 +329,16 @@ Anyone who is graduated can participate. Just come in with an open mind and fun 
 						</label>
 					</span>
 					<textarea name="Message" placeholder="Message..." required=""></textarea>
-					<input type="submit" value="Submit">
+					<input type="submit" value="Submit" onclick="mysubmit()">
 				</form>
 			</div>
 		</div>
 	</div>
 	<script src="js/classie.js"></script>
 	<script>
+		function mysubmit(){
+			return alert("Your response is noted!");
+		}
 			(function() {
 				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 				if (!String.prototype.trim) {

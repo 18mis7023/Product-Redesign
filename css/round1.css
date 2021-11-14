@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:#fff;
+    padding:0.3rem 2rem;
+}
+nav .left{
+    display: flex;
+    justify-content: baseline;
+    align-content: center;
+    flex-direction: row;
+}
+nav .right{
+    background-color:#f26522;
+    color:#fff;
+    padding:0.5rem 1rem;
+}
+.right h6{
+    font-weight: bold;
+}
+nav img{
+    height:auto;
+    width:60px;
+    border-radius: 40px;
+}
+.top-part{
+    background-image:url("../images/2817291.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.top-part{
+   text-align: center;
+   color:#fff;
+   padding:4rem;
+   justify-content: center;
+}
+.top-part h3{
+    font-weight:900;
+    font-size:5em;
+}
+.top-part .lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.top-part .lines p{
+    padding:1rem;   
+}
+.second-part{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:1rem;
+    background-color: #f26522;
+    margin:2rem;
+    color:#fff !important;
+}
+.second-part .top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.second-part .bottom button{
+    background-color: #802800;
+    padding:1rem 2rem;
+    border:none;
+    color:#fff;
+}
+.second-part h3{
+    font-size:2rem;
+}
+.second-part .top .part{
+    padding:1rem;
+    font-size:1rem;
+    background-color: #fff;
+    color:#000;
+    margin:0.7rem;
+    border-radius:15px;
+}
+#cat{
+    margin:15px;
+}
+#pro{
+    margin:15px;
+}
+.submit{
+    margin:15px;
+}
+.upload{
+    margin:25px;
+    /*display: none;*/
+}
+@media (max-width:1024px){
+    .top-part h3 {
+        font-weight: 900;
+        font-size: 3em;
+    }
+    .second-part .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rules ul li{
+        font-size:0.9rem;
+    }
+}
+@media (max-width:475px){
+    .second-part{
+        margin:1rem 0;
+    }
+}
+

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ROUND-1 | INNOTECH | CSI VIT AP</title>
+        <!-- google-fonts -->
+        <link href="//fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+
+        <script src="https://kit.fontawesome.com/cc8111f8a1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/round1.css">
+    </head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="logo">
+                    <img src="/images/LOGO dark.png" alt="InnoTech logo image">
+                    InnoTech
+                </div>
+            </div>
+            <div class="right">
+                <h6>Log Out</h6>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner part -->
+
+    <div class="top-part">
+        <h3>INNOTECH</h3>
+            <div class="content">
+               <!-- <p>In collaboration with</p>
+                <div class="lines">
+                    <p>ACM CHAPTER</p>
+                    <p>ANDROID CLUB</p>
+                </div>  -->
+            </div>
+    </div>
+    <div class="second-part">
+        <h3>WELCOME</h3>
+        <div class="top">
+            <div class="part" id="name1">
+                
+            </div>
+            <div class="part" id="name2">
+                
+            </div>
+            <div class="part" id="name3">
+                    
+            </div></div>
+            <div class="bottom">
+                <H3>ROUND 1</H3>
+            </div>
+
+            <div class="select" id="formsection">
+                <h5>Click the below button to start the Round-1</h5>
+
+                <div class="options">
+                        <div class="row">
+                            <input type="submit" value="Start" class="form-control submit col" onclick="openlink()">
+                        </div>
+                </div>
+            </div>
+            <h5 id="Label_comp_end_time"></h5>
+                <h5 id="comp_end_time"></h5>
+            <div class="select" id="formtimesec">
+                <h5>Your round will start in </h5>
+                <center><h5 id="profile_exam_time"></h5></center>
+                
+            </div>
+
+            <div class="upload" id="uploaddiv" style="display:none">
+                <input type="file" name="upload" id="upload" > UPLOAD YOUR REPORT HERE
+                <button onclick="uploadoption()">Upload</button>
+            </div>
+
+        <div class="rules" style="text-align:left;">
+            <h3>Rules & Regulations</h3>
+            <ul>
+                <li>Report must be uploaded before 29 May 2021 12:00 AM</li>
+                <li>Only one member from the team has to upload the report.</li>
+                <li>Reports that are submitted after the deadline through mails or any other platforms will not be accepted</li>
+                <li>You can choose any project out of 7 categories</li>
+                <li>If you don't have a feasible solution for any of the above given problems, you can come up with your own problem and a solution</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <!-- //Js scripts -->
+    <script src="js/round1.js"></script>
+</body>
+
+</html>

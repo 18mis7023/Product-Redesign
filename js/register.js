@@ -24,7 +24,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     var databaseref; 
         firebase.database().ref("IdeaPlugin").child("Mails").orderByChild("Email").equalTo(useremail).once("value",snapshot => {
           if (snapshot.exists()){
-             window.location.replace("./profile.html");
+             window.location.replace("./round1.html");
           }
           else{
               
@@ -187,7 +187,7 @@ firebase.auth().onAuthStateChanged(function(user) {
               });
               setTimeout(() => {
                 alert("Updated Sucessfully !! Lets go for next One");
-                 window.location.replace("./profile.html");   
+                 window.location.replace("./round1.html");   
               }, 5000);
             }
         }else{
